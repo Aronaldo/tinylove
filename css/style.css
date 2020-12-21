@@ -1,0 +1,532 @@
+
+/* IMPORTS CSS */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    /* Apelido */
+
+
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;;
+}
+
+/* Mobile First */
+
+/* ----------- HEADER ----------- */
+
+header {
+    background-image: url(../images/fundo-celular.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    border-bottom: 5px solid #b34334;
+}
+
+header .fundo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px 25px;
+    background-color: rgba(165, 62, 49, .97);
+    /* opacity: .97; */
+}
+
+header #logo-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid white; */
+}
+
+header #logo-box img {
+    width: 45px;
+}
+
+header #logo-box span {
+    margin-top: 10px;
+}
+
+header .fundo h1 {
+    margin-top: 10px;
+    font-family: 'Roboto-Bold', sans-serif;
+    /* font-weight: 500; */
+}
+
+header .fundo #social-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+    margin-top: 10px;
+    font-size: 1.2rem;
+    /* border: 1px solid white; */
+}
+
+header .fundo h2 {
+    font-family: 'Roboto-Thin', sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+header .fundo p {
+    display: none;
+}
+
+header .fundo div#lojas {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    /* border: 1px solid white;  */
+}
+
+header .fundo div#lojas img {
+    width: 45%;
+    max-width: 110px;
+    /* limite do width */
+}
+
+/* ----------- NEXT GENERATION ----------- */
+
+section#next-generation {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section#next-generation h2 {
+    order: 4;
+    width: 100%;
+    padding: 45px 20px;
+    font-size: 1.9rem;
+    text-align: center;
+    font-family: 'Roboto-Thin', sans-serif;
+    background-color: #b34334;
+    color: #fff;
+    align-self: flex-start;
+}
+
+section#next-generation article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 30px;
+    /* border: 1px solid red; */
+}
+
+section#next-generation article i {
+    color: #b34334;
+    font-size: 2rem;
+}
+
+section#next-generation article h3 {
+    font-family: 'Roboto-Light', sans-serif;
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+section#next-generation article h4 {
+    font-family: 'Roboto-Thin', sans-serif;
+    margin-top: 10px;
+}
+
+section#next-generation article p {
+    margin-top: 10px;
+    text-align: center;
+}
+
+section#its-works {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #393b47;
+    color: white;
+    padding-top: 25px;
+}
+
+section#its-works h2 {
+    width: 90%;
+    line-height: 60px;
+    text-align: center;
+    font-size: 2.8rem;
+    font-family: 'Roboto-Thin', sans-serif;
+}
+
+section#its-works article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 15px;
+}
+
+section#its-works article img {
+    margin-top: 20px;
+}
+
+section#its-works article.inverso {
+    background-color: #2b2f37;
+}
+
+section#its-works .heading-goes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section#its-works .heading-goes i {
+    margin-top: 20px;
+    color: salmon;
+    background-color: white;
+    font-size: 1.5rem;
+    line-height: 0.8;
+    width: 16px;
+    height: 15px;
+    text-align: center;
+}
+
+section#its-works .heading-goes div h3 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Roboto-Thin', sans-serif;
+    /* border: 1px solid red; */
+}
+
+section#its-works .heading-goes div p {
+    margin-top: 20px;
+    font-family: 'Roboto-Thin', sans-serif;
+    font-size: 0.97rem;
+    line-height: 1.3rem;
+}
+
+/* CONTACT FORM */
+
+section#contato {
+    padding-top: 20px;
+    background-color: #b34334;
+    color: white;
+}
+
+section#contato h2 {
+    font-size: 2.5rem;
+    font-family: 'Roboto-Thin', sans-serif;
+    text-align: center;
+    width: 60%;
+    /* border: 1px solid white; */
+    margin: 0 auto;
+}
+
+section#contato form {
+    padding: 0 20px 20px;
+}
+
+section#contato form label {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+section#contato form label, section#contato form input, section#contato form button {
+    font-size: 1rem;
+    font-family: 'Roboto-Thin', sans-serif;
+}
+
+section#contato form input {
+    width: 100%;
+    height: 40px;
+    padding: 8px;
+    /* color: white; */
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    outline: none;
+    transition: background-color .3s;
+}
+
+section#contato form input:focus, section#contato form textarea:focus {
+    background-color: white;
+}
+
+section#contato form textarea {
+    width: 100%;
+    height: 100px;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: background-color .3s;
+}
+
+section#contato form button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #7b2f25;
+    color: white;
+    outline: none;
+    border: none;
+    font-family: 'Roboto-Light', sans-serif;
+}
+
+/* FOOTER */
+footer {
+    padding: 10px ;
+}
+footer p {
+    text-align: center;
+    color: #b34334;
+}
+
+@media screen and (min-width: 360px) and (max-width: 678px) {
+    header .fundo h2 {
+        width: 90%;
+        /* border: 1px solid springgreen; */
+    }
+}
+
+/* ---------- TABLETS ---------- */
+
+@media screen and (min-width: 768px) {
+    header .fundo {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    header #logo-box img {
+        width: 75px;
+    }
+    header #logo-box span {
+        margin-top: 15px;
+        font-size: 1.5rem;
+    }
+    header .fundo h1 {
+        margin-top: 20px;
+        font-size: 2.5rem;
+    }
+    header .fundo h2 {
+        margin-top: 20px;
+        font-size: 2rem;
+    }
+    header .fundo p {
+        display: block;
+        margin-top: 20px;
+        font-family: 'Roboto-Thin', sans-serif;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    header .fundo div#lojas {
+        width: 50%;
+        margin-top: 20px;
+    }
+    header .fundo div#lojas img {
+        max-width: 135px;
+    }
+    /* ----------- NEXT GENERATION ----------- */
+    section#next-generation {
+        flex-direction: column;
+        align-items: center;
+    }
+    section#next-generation h2 {
+        padding: 45px 125px;
+    }
+    section#next-generation article {
+        width: 70%;
+        /* margin-top: 20px; */
+    }
+    section#next-generation article:last-of-type {
+        margin-bottom: 15px;
+    }
+    section#next-generation article i {
+        font-size: 2.2rem;
+        font-size: 1.5rem;
+    }
+    section#next-generation article i, section#next-generation article h3, section#next-generation article h4, section#next-generation article p {
+        margin-top: 20px;
+    }
+    /* ----------- IT'S WORK ----------- */
+    section#its-works article {
+        padding: 0 30px;
+    }
+    section#its-works .heading-goes i {
+        font-size: 2.5rem;
+        line-height: 0.8;
+        width: 33px;
+        height: 26px;
+    }
+    section#its-works .heading-goes div h3 {
+        font-size: 2.5rem;
+    }
+    section#its-works .heading-goes div p {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+    section#its-works article img {
+        margin-top: 30px;
+    }
+    /* CONTACT FORM */
+    section#contato form {
+        padding: 0 30px 30px;
+    }
+    section#contato h2 {
+        font-size: 3rem;
+    }
+    section#contato form input {
+        height: 50px;
+        padding: 15px;
+    }
+    section#contato form label, section#contato form input, section#contato form button {
+        font-size: 1.5rem;
+    }
+}
+
+/* --------- DESKTOP --------- */
+
+@media screen and ( min-width: 992px) {
+    header .fundo {
+        background-color: transparent;
+    }
+    header #logo-box img {
+        width: 50px;
+    }
+    header #logo-box span {
+        margin-top: 10px;
+        font-size: .9rem;
+    }
+    header .fundo h1 {
+        margin-top: 10px;
+        font-size: 1.5rem;
+    }
+    header .fundo #social-icons {
+        width: 50px;
+        margin-top: 10px;
+        font-size: 1rem;
+    }
+    header .fundo h2 {
+        align-self: flex-end;
+        width: 50%;
+        margin-top: 35px;
+        text-align: left;
+        font-family: 'Roboto-bold', sans-serif;
+        font-size: 1.2rem;
+    }
+    header .fundo p {
+        align-self: flex-end;
+        width: 50%;
+        margin-top: 25px;
+        padding-right: 85px;
+        font-size: 0.85rem;
+        font-family: 'Roboto-Light', sans-serif;
+        text-align: left;
+        /* border: 1px solid white; */
+    }
+    header .fundo div#lojas {
+        align-self: flex-end;
+        justify-content: flex-start;
+        width: 50%;
+        margin-top: 25px;
+    }
+    header .fundo div#lojas img {
+        width: 110px;
+    }
+    header .fundo div#lojas img:first-of-type {
+        margin-right: 20px;
+    }
+    /* ----------- NEXT GENERATION ----------- */
+    section#next-generation {
+        flex-direction: row;
+        /* flex-wrap: wrap; */
+        justify-content: center;
+    }
+    section#next-generation article {
+        width: 30%;
+        max-width: 340px;
+        /* border: 1px solid red; */
+    }
+    section#next-generation h2 {
+        font-size: 1.5rem;
+    }
+    /* ----------- IT'S WORK ----------- */
+    section#its-works {
+        align-items: stretch;
+    }
+    section#its-works h2 {
+        font-size: 2rem;
+    }
+    section#its-works article {
+        flex-direction: row;
+        justify-content: center;
+    }
+    section#its-works article.inverso {
+        flex-direction: row-reverse;
+    }
+    section#its-works .inverso .heading-goes {
+        margin-right: 0;
+        margin-left: 100px;
+    }
+    section#its-works .heading-goes div h3 {
+        margin: 0;
+        text-align: left;
+    }
+    section#its-works .heading-goes {
+        flex-direction: row;
+        align-items: flex-start;
+        max-width: 300px;
+        margin-right: 100px;
+        /* border: 1px solid white; */
+    }
+    section#its-works .heading-goes i {
+        margin-top: 0;
+        margin-right: 20px;
+        font-size: 2rem;
+        width: 26px;
+        height: 25px;
+    }
+    section#its-works .heading-goes div h3 {
+        font-size: 1.5rem;
+    }
+    section#its-works .heading-goes div p {
+        font-size: 0.97rem;
+        line-height: 1.2rem;
+    }
+    section#its-works article img {
+        /* margin-top: 30px; */
+        align-self: flex-end;
+        width: 200px;
+    }
+    /* CONTACT FORM */
+    section#contato h2 {
+        font-size: 2rem;
+    }
+
+    section#contato form {
+        /* width: 70%; */
+        max-width: 650px;
+        margin: 0 auto;
+    }
+    
+    section#contato form label, 
+    section#contato form input, 
+    section#contato form button {
+        font-size: 1rem;
+    }
+
+    section#contato form input {
+        height: 40px;
+        padding: 8px;
+    }
+}
+
+/* --------- TELAS LARGAS --------- */
+
+@media screen and ( min-width: 1200px) {
+    #container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
+
+
